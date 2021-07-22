@@ -1,0 +1,4 @@
+#!/bin/bash
+NUMNODES=1
+SIMDIR='/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd/'
+mpirun -np $NUMNODES bin/nrpmd $SIMDIR

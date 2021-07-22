@@ -10,6 +10,9 @@
 #include "dStateIndep_dQ.hpp"
 #include "sc_potential.hpp"
 #include "mv_forces_temp.hpp"
+#include "theta_mixed.hpp"
+#include "theta_mixed_dQ.hpp"
+#include "theta_mixed_dElec.hpp"
 
 using namespace boost::numeric::ublas;
 
@@ -17,7 +20,9 @@ class csrpmd_forces : public mv_forces_temp {
     
 public:
     csrpmd_forces(int nuc_beads,int elec_beads, int num_states,
-                  double mass, double beta_nuc_beads);
+                  double mass, double beta_nuc_beads, double alpha,
+                  theta_mixed &thetaIN, theta_mixed_dQ &theta_dQIN,
+                  theta_mixed_dElec &theta_dElec_IN);
     
     /*
      Update dHdP to reflect the state of P
@@ -69,8 +74,7 @@ public:
     double get_sign(const vector<double> &Q, const matrix<double> &x,
                     const matrix<double> &p);
 
-/* Debugging*/
-    void print_dHdQ(); 
+    void print_dHdQ();
     void print_dHdP(); 
     void print_dHdx(); 
     void print_dHdp(); 
@@ -80,10 +84,15 @@ private:
 /* Data */
     double mass;
     double ONE_mass; //1.0/mass
+    double ONE_beta_nuc_beads; //1.0/beta_nuc_beads
+    double TWO_beta_nuc_beads; //2.0/beta_nuc_beads
     double beta_nuc_beads;
     int nuc_beads; //number of nuclear beads
     int elec_beads; //number of electronic beads
     int num_states; //number of electronic states
+    double coeff_ONE_theta; //ONE_beta_nuc_beads /theta
+    double alpha; //mapping variable prefactor
+    double x_alpha, p_alpha; //x and p mapping variable prefactors
 
     vector<double> dHdQ, dHdP; //derivative of Hamiltonian wrt Q,P
     matrix<double> dHdx, dHdp; //derivative of Hamiltonian wrt x,p
@@ -91,12 +100,18 @@ private:
     vector<double> dVspring_dQ_vec;
     vector<double> dV0_dQ_vec;
     vector<double> Vsc_dQ_vec;
-
+    vector<double> dThetaMTS_dQ_vec;
+    matrix<double> dThetaMTS_dx_vec;
+    matrix<double> dThetaMTS_dp_vec;
     
 /* Objects */
     dSpring_dQ dVspring_dQ;
     dStateIndep_dQ dV0_dQ;
     sc_potential Vsc;
+    
+    theta_mixed * theta;
+    theta_mixed_dQ * theta_dQ;
+    theta_mixed_dElec * theta_dElec;
     
 };
 

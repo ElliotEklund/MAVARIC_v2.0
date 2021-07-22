@@ -6,12 +6,9 @@
 #include "input_mvrpmd.hpp"
 #include "equilib_mvrpmd.hpp"
 #include "sampling_mvrpmd.hpp"
-// #include "dynamics_mvrpmd.hpp"
+#include "dynamics_mvrpmd.hpp"
 // #include "trajs_io.hpp"
 // #include "aggregate.hpp"
-// #include "simpson.hpp"
-// #include "lyp_funcs.hpp"
-//#include "Dynamics.hpp"
 
 int main(int argc, char ** argv) {
 
@@ -41,9 +38,8 @@ int main(int argc, char ** argv) {
 
      input_mvrpmd myInput;
 
-     std::string root = "/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd/";
-// //    //std::string root = "/home/fs01/ece52/MAVARIC-MTS/MAVARIC/sims/mvrpmd/";
-// //
+     std::string root = argv[1]; 
+     
      int abort = myInput.input_file_handler(root,sys_parameters,elec_parameters,
                                             MC_parameters,Samp_parameters,Dyn_parameters);
 
@@ -218,59 +214,59 @@ int main(int argc, char ** argv) {
                           /* BEGIN PROCESS 4 */
     /* This process runs the Dynamics simulation if requested.*/
 
-    //
-    // if(runDyn){
-    //     if (my_id == root_process) {
-    //         std::cout << "Begin Dynamics Simulation" << std::endl;
-    //         std::cout << std::endl << std::endl;
-    //     }
-    //
-    //     /* Setup Dynamics object for simulation. */
-    //     dynamics_mvrpmd dyn(my_id,num_procs,root_process);
-    //
-    //     dyn.set_system(nuc_beads,elec_beads,num_states,mass,beta,beta_nuc,
-    //                    beta_elec,alpha);
-    //     dyn.set_time(dt,total_time);
-    //     dyn.set_trajs(num_trajs,root);
-    //
-    //     clock_t start = clock();
-    //
-    //     if(run_energ_conserv){
-    //         energy_stride = 100;
-    //         dyn.energy_conserve(tol,energy_stride,root + "Output/Trajectories/",
-    //                            root + "Output/");
-    //     }
-    //     if(run_PopAC){
-    //         bool pac = true;
-    //         bool bp = true;
-    //         bool sp = true;
-    //         bool wp = false;
-    //
-    //         int pac_stride = 100;
-    //         int bp_stride = 100;
-    //         int sp_stride = 100;
-    //         int wp_stride = 100;
-    //         int num_samples = 4;
-    //         int num_errors = 10;
-    //
-    //         dyn.compute_ac(pac,pac_stride,bp,bp_stride,sp,sp_stride,wp,wp_stride,
-    //                        root + "Output/Trajectories/",root + "Output/",
-    //                        num_samples,num_errors);
-    //     }
-    //
-    //     if(run_init_PAC){
-    //       dyn.iPAC(interval,root+"Output/Trajectories/",
-    //                             root+"Output/");
-    //     }
-    //
-    //     clock_t end = clock();
-    //     double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-    //
-    //     if (my_id == root_process) {
-    //         std::cout << "Dynamics simulation time:" << time_taken << std::endl;
-    //         std::cout << "End Dynamics Simulation" << std::endl;
-    //     }
-    // }
+    
+     if(runDyn){
+         if (my_id == root_process) {
+             std::cout << "Begin Dynamics Simulation" << std::endl;
+             std::cout << std::endl << std::endl;
+         }
+    
+         /* Setup Dynamics object for simulation. */
+         dynamics_mvrpmd dyn(my_id,num_procs,root_process);
+    
+         dyn.set_system(nuc_beads,elec_beads,num_states,mass,beta,beta_nuc,
+                        beta_elec,alpha);
+         dyn.set_time(dt,total_time);
+         dyn.set_trajs(num_trajs,root);
+    
+         clock_t start = clock();
+             
+         if(run_energ_conserv){
+             energy_stride = 100;
+             dyn.energy_conserve(tol,energy_stride,root + "Output/Trajectories/",
+                                root + "Output/");
+         }
+         if(run_PopAC){
+             bool pac = true;
+             bool bp = false;
+             bool sp = false;
+             bool wp = false;
+    
+             int pac_stride = 100;
+             int bp_stride = 100;
+             int sp_stride = 100;
+             int wp_stride = 100;
+             int num_samples = 4;
+             int num_errors = 1;
+                 
+             dyn.compute_ac(pac,pac_stride,bp,bp_stride,sp,sp_stride,wp,wp_stride,
+                            root + "Output/Trajectories/",root + "Output/",
+                            num_samples,num_errors);
+         }
+    
+         if(run_init_PAC){
+           dyn.iPAC(interval,root+"Output/Trajectories/",
+                                 root+"Output/");
+         }
+    
+         clock_t end = clock();
+         double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
+    
+         if (my_id == root_process) {
+             std::cout << "Dynamics simulation time:" << time_taken << std::endl;
+             std::cout << "End Dynamics Simulation" << std::endl;
+         }
+     }
 
                             /* END PROCESS 4 */
     /* /////////////////////////////////////////////////////////// */

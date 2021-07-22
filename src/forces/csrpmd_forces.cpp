@@ -1,25 +1,42 @@
 #include "csrpmd_forces.hpp"
 
 csrpmd_forces::csrpmd_forces(int nuc_beads,int elec_beads, int num_states,
-                                         double mass, double beta_nuc_beads)
-    :ONE_mass(1.0/mass),
-     beta_nuc_beads(beta_nuc_beads),
-     nuc_beads(nuc_beads),
-     elec_beads(elec_beads),
+                             double mass, double beta_nuc_beads, double alpha,
+                             theta_mixed &thetaIN, theta_mixed_dQ &theta_dQIN,
+                             theta_mixed_dElec &theta_dElec_IN)
+
+    :ONE_mass(1.0/mass),beta_nuc_beads(beta_nuc_beads),
+     nuc_beads(nuc_beads), ONE_beta_nuc_beads(1.0/beta_nuc_beads),
+     TWO_beta_nuc_beads(2.0/beta_nuc_beads),elec_beads(elec_beads),
      num_states(num_states),
 
      dVspring_dQ(nuc_beads, mass, beta_nuc_beads),
      dV0_dQ(nuc_beads,mass),
      Vsc(nuc_beads,elec_beads,num_states),
 
+
+     dHdQ(nuc_beads,0.0), dHdP(nuc_beads,0.0),
+     dHdx(elec_beads,num_states,0.0),dHdp(elec_beads,num_states,0.0),
+
      dVspring_dQ_vec(nuc_beads,0.0),
      dV0_dQ_vec(nuc_beads,0.0),
      Vsc_dQ_vec(nuc_beads,0.0),
 
-     dHdQ(nuc_beads,0.0), dHdP(nuc_beads,0.0),
-     dHdx(elec_beads,num_states,0.0),dHdp(elec_beads,num_states,0.0)
+     dThetaMTS_dQ_vec(nuc_beads,0.0),
+
+     dThetaMTS_dx_vec(elec_beads,num_states,0.0),
+     dThetaMTS_dp_vec(elec_beads,num_states,0.0),
+
+     alpha(alpha)
+
 {
+    theta = &thetaIN;
+    theta_dQ = &theta_dQIN;
+    theta_dElec = &theta_dElec_IN;
+    coeff_ONE_theta = 0;
     
+    x_alpha = alpha;
+    p_alpha = 1.0/alpha;
 }
 void csrpmd_forces::update_Forces(const vector<double> &Q,const vector<double> &P,
                    const matrix<double> &x,const matrix<double> &p){
@@ -47,7 +64,12 @@ void csrpmd_forces::update_dHdp(const vector<double> &Q, const matrix<double> &p
 }
 double csrpmd_forces::get_sign(const vector<double> &Q, const matrix<double> &x,
                                const matrix<double> &p){
-    return 1.0;
+    
+    
+    theta->update_theta(Q, x, p);
+    theta_dQ->update_theta_dQ(Q);
+    theta_dElec->update_theta_dElec(x, p);
+    return theta->get_signTheta(Q,x,p);
 }
 const vector<double> & csrpmd_forces::get_dHdQ(){return dHdQ;}
 

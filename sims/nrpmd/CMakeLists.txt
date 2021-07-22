@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 set(MACHINE "MAC")
 
 if(${MACHINE} STREQUAL "MAC")
-  set(ROOT "/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC")
+  set(ROOT "/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0")
   set(BOOST "/Users/ellioteklund/Downloads")
 elseif(${MACHINE} STREQUAL "ASTRA")
   set(ROOT "/home/fs01/ece52/MAVARIC-MTS/MAVARIC")
@@ -45,12 +45,13 @@ add_executable(nrpmd nrpmd.cpp
         ${SAMPLING_DIR}/sampling_mvrpmd.cpp
         ${SAMPLING_DIR}/SamplingHelper.cpp
 
-    #    #dynamics directory
-    #    #${DYNAMICS_DIR}/Dynamics.cpp
-    #    ${DYNAMICS_DIR}/dynamics_mvrpmd.cpp
-    #
+        #dynamics directory
+        #${DYNAMICS_DIR}/Dynamics.cpp
+        ${DYNAMICS_DIR}/dynamics_mvrpmd.cpp
+
         #hamiltonian directory
         ${HAMILTONIAN_DIR}/C_Matrix.cpp
+        ${HAMILTONIAN_DIR}/sc_potential.cpp
         ${HAMILTONIAN_DIR}/GTerm.cpp
         ${HAMILTONIAN_DIR}/M_Matrix_MTS.cpp
         ${HAMILTONIAN_DIR}/M_Matrix.cpp
@@ -78,35 +79,38 @@ add_executable(nrpmd nrpmd.cpp
         ${ESTIMATORS_DIR}/mvrpmd_mixed_esti.cpp
         ${ESTIMATORS_DIR}/mvrpmd_Esplit_esti.cpp
 
-    #    #forces directory
-    #    ${FORCES_DIR}/dCdelec.cpp
-    #    ${FORCES_DIR}/dM_Matrix_dQ.cpp
-    #    #${FORCES_DIR}/dM_Matrix_MTS_dQ.cpp
-    #    ${FORCES_DIR}/dSpring_dQ.cpp
-    #    ${FORCES_DIR}/dStateDep_dQ.cpp
-    #    ${FORCES_DIR}/dStateIndep_dQ.cpp
-    #    #${FORCES_DIR}/dTheta_MTS_dElec.cpp
-    #    #${FORCES_DIR}/dTheta_MTS_dQ.cpp
-    #    #${FORCES_DIR}/Forces_MTS.cpp
-    #    ${FORCES_DIR}/theta_mixed_dQ.cpp
-    #    ${FORCES_DIR}/mvrpmd_mixed_forces.cpp
-    #    ${FORCES_DIR}/theta_mixed_dElec.cpp
-    #
-    #    #integrators directory
-    #    ${INTEGRATORS_DIR}/ABM_MVRPMD.cpp
-    #    ${INTEGRATORS_DIR}/RK4_MVRPMD.cpp
-    #
+        #forces directory
+        ${FORCES_DIR}/dCdelec.cpp
+        ${FORCES_DIR}/dM_Matrix_dQ.cpp
+        #${FORCES_DIR}/dM_Matrix_MTS_dQ.cpp
+        ${FORCES_DIR}/dSpring_dQ.cpp
+        ${FORCES_DIR}/dStateDep_dQ.cpp
+        ${FORCES_DIR}/dStateIndep_dQ.cpp
+        #${FORCES_DIR}/dTheta_MTS_dElec.cpp
+        #${FORCES_DIR}/dTheta_MTS_dQ.cpp
+        #${FORCES_DIR}/Forces_MTS.cpp
+        ${FORCES_DIR}/theta_mixed_dQ.cpp
+        ${FORCES_DIR}/mvrpmd_mixed_forces.cpp
+        ${FORCES_DIR}/csrpmd_forces.cpp
+        ${FORCES_DIR}/theta_mixed_dElec.cpp
+        ${FORCES_DIR}/nrpmd_forces.cpp
+
+        #integrators directory
+        ${INTEGRATORS_DIR}/ABM_MVRPMD.cpp
+        ${INTEGRATORS_DIR}/RK4_MVRPMD.cpp
+
         #misc directory
         ${MISC_DIR}/MainHlpr.cpp
         ${MISC_DIR}/mpi_wrapper.cpp
-        #    ${MISC_DIR}/PopulationEstimator.cpp
-        #    ${MISC_DIR}/decorrelation.cpp
-        #    ${MISC_DIR}/pop_estimators.cpp
-        #    ${MISC_DIR}/aggregate.cpp
-        #    ${MISC_DIR}/init_PAC.cpp
-        #    ${MISC_DIR}/auto_correlation.cpp
-        #    ${MISC_DIR}/energy_conserv.cpp
-        #    ${MISC_DIR}/lyapunov.cpp
+        ${MISC_DIR}/PopulationEstimator.cpp
+        ${MISC_DIR}/decorrelation.cpp
+        ${MISC_DIR}/pop_estimators.cpp
+        ${MISC_DIR}/aggregate.cpp
+        ${MISC_DIR}/init_PAC.cpp
+        #${MISC_DIR}/auto_correlation.cpp
+        ${MISC_DIR}/auto_correlation_nrpmd.cpp
+        ${MISC_DIR}/energy_conserv.cpp
+        ${MISC_DIR}/lyapunov.cpp
 
         #monte carlo directory
         ${MONTECARLO_DIR}/system_step.cpp

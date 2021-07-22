@@ -1,4 +1,4 @@
-#include "nrpmd_forces.cpp"
+#include "nrpmd_forces.hpp"
 
 
 nrpmd_forces::nrpmd_forces(int nuc_beads,int elec_beads, int num_states,
@@ -16,7 +16,11 @@ nrpmd_forces::nrpmd_forces(int nuc_beads,int elec_beads, int num_states,
      dHdx(elec_beads,num_states,0.0),dHdp(elec_beads,num_states,0.0),
 
      dVspring_dQ_vec(nuc_beads,0.0), dV0_dQ_vec(nuc_beads,0.0),
-{}
+     Vdep(num_states,nuc_beads,beta_nuc_beads)
+
+{
+    
+}
 void nrpmd_forces::update_Forces(const vector<double> &Q,const vector<double> &P,
                                         const matrix<double> &x,const matrix<double> &p){
 
@@ -36,11 +40,12 @@ void nrpmd_forces::update_dHdQ(const vector<double> &Q, const matrix<double> &x,
 
     dVspring_dQ_vec = dVspring_dQ.get_dSpring_dQ(Q);
     dV0_dQ_vec = dV0_dQ.get_dStateIndep_dQ(Q);
-    dThetaMTS_dQ_vec = theta_dQ->get_theta_dQ_vec();
-    noalias(dHdQ) = dVspring_dQ_vec + dV0_dQ_vec - coeff_ONE_theta*dThetaMTS_dQ_vec;
+    noalias(dHdQ) = dVspring_dQ_vec + dV0_dQ_vec;
 }
 void nrpmd_forces::update_dHdx(const vector<double> &Q, const matrix<double> &x,
                                        const matrix<double> &p){
+    
+    /* Should be p . state dependent using matris multiplication*/
 
 }
 void nrpmd_forces::update_dHdp(const vector<double> &Q, const matrix<double> &x,

@@ -9,6 +9,7 @@ void aggregate::add_calc(std::string name, int num_cols, int num_rows){
     
     matrix<double> * v = new matrix<double> (num_rows,num_cols + 1,0.0);
     myMap.insert(std::pair<std::string, matrix<double> * >(name,v));
+    
 }
 void aggregate::collect(std::string name, int row, const vector<double> & v0,
                         const vector<double> & v, const double & sgnTheta){
@@ -26,7 +27,7 @@ void aggregate::collect(std::string name, int row, const double & v0,
                         const double & v, const double & sgnTheta){
     
     int num_cols = 1;
-    
+        
     for (int col=0; col<num_cols; col++) {
         (*myMap[name])(row,col) += sgnTheta * v0 * v;
     }
@@ -34,7 +35,7 @@ void aggregate::collect(std::string name, int row, const double & v0,
     (*myMap[name])(row,num_cols) += sgnTheta;
 }
 
-/* HACK ALERT!!!  I am currently hard ss (stride). This should
+/* HACK ALERT!!!  I am currently hard coding ss (stride). This should
  be fixed at a later time
  num_trajs is the global num_trajs*/
 void aggregate::merge_collections(int root_process,int my_id, std::string root,
@@ -102,12 +103,13 @@ void aggregate::write_errors(std::string name,int num_samples,int num_errors,
     vector<vector<double> > stdevs (num_cols-1,zero_vector<double>(num_errors));
     vector<vector<double> > temp (num_samples,zero_vector<double>(num_errors));
     vector<vector<double> > sgnTheta (num_samples,zero_vector<double>(num_errors));
-
+    
     for (int i=0; i<num_cols; i++) {
         errors(i) = get_samples(name,i,num_errors);
     }
 
     sgnTheta = sum_data(errors(num_cols-1),num_samples,num_errors);
+    
     
     for (int col=0; col<num_cols-1; col++) {
         temp = sum_data(errors(col),num_samples,num_errors);
@@ -118,6 +120,7 @@ void aggregate::write_errors(std::string name,int num_samples,int num_errors,
         temp = sum_data(errors(col),num_samples,num_errors);
         stdevs(col) = stdev(temp,avgs(col),sgnTheta,num_samples,num_errors);
     }
+    
 
     if (my_id == root_proc) {
         std::ofstream myStream;
@@ -131,6 +134,7 @@ void aggregate::write_errors(std::string name,int num_samples,int num_errors,
         
         int num_rows = myMap[name]->size1();
         int stride2 = floor(double(num_rows)/num_errors);
+
         
         for (int i=0; i<num_errors; i++) {
             myStream << i*dt*stride*stride2<< " ";
@@ -147,9 +151,10 @@ vector<double> aggregate::get_samples(std::string name,int col,int num_errors){
     int num_rows = myMap[name]->size1();
     int num_cols = myMap[name]->size2();
 
+
     int stride = floor(double(num_rows)/num_errors);
     vector<double> v_error(num_errors,0);
-    
+
     int count = 0;
     for (int i=0; i<num_rows; i++) {
         if (i % stride ==0) {
@@ -157,17 +162,18 @@ vector<double> aggregate::get_samples(std::string name,int col,int num_errors){
             count += 1;
         }
     }
+
     return v_error;
 }
 vector<vector<double> > aggregate::sum_data(vector<double> v_error,
                                              int num_samples, int num_errors){
         
-    if (num_samples > num_procs) {
-        if (my_id==root_proc) {
-            std::cout << "ERROR: num_procs must be greater than or equal to "
-            "num_samples" << std::endl;
-        }
-    }
+//    if (num_samples > num_procs) {
+//        if (my_id==root_proc) {
+//            std::cout << "ERROR: num_procs must be greater than or equal to "
+//            "num_samples" << std::endl;
+//        }
+//    }
     
     /* Number of groups that can be made with num_procs each containining numsamples*/
     int num_groups = floor(double(num_procs)/num_samples);

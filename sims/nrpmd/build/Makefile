@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd
+CMAKE_SOURCE_DIR = /Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd/build
+CMAKE_BINARY_DIR = /Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd/build/CMakeFiles /Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd/build/CMakeFiles /Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/sims/nrpmd/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/sims/nrpmd/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,788 +123,1382 @@ nrpmd/fast:
 	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/build
 .PHONY : nrpmd/fast
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.o
-
-# target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.o
-
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.i
-
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.i
-
-# target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.i
-
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.s
-
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.s
-
-# target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.cpp.s
-
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.o
-
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.cpp.s
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.o: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.o
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.o
 
 # target to build an object file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.o:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.o
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.o
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.o
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.i: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.i
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.i
 
 # target to preprocess a source file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.i:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.i
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.i
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.i
 
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.s: Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.s
 
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.s
 
 # target to generate assembly for a file
-Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.s:
-	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.s
-.PHONY : Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.cpp.s
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.cpp.s
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.o: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.o
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.o
+
+# target to build an object file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.o
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.o
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.i: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.i
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.i
+
+# target to preprocess a source file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.i
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.i
+
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.s: Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.s
+
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.s
+
+# target to generate assembly for a file
+Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.s
+.PHONY : Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.cpp.s
+
+dynamics/dynamics_mvrpmd.o: dynamics/dynamics_mvrpmd.cpp.o
+
+.PHONY : dynamics/dynamics_mvrpmd.o
+
+# target to build an object file
+dynamics/dynamics_mvrpmd.cpp.o:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/dynamics/dynamics_mvrpmd.cpp.o
+.PHONY : dynamics/dynamics_mvrpmd.cpp.o
+
+dynamics/dynamics_mvrpmd.i: dynamics/dynamics_mvrpmd.cpp.i
+
+.PHONY : dynamics/dynamics_mvrpmd.i
+
+# target to preprocess a source file
+dynamics/dynamics_mvrpmd.cpp.i:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/dynamics/dynamics_mvrpmd.cpp.i
+.PHONY : dynamics/dynamics_mvrpmd.cpp.i
+
+dynamics/dynamics_mvrpmd.s: dynamics/dynamics_mvrpmd.cpp.s
+
+.PHONY : dynamics/dynamics_mvrpmd.s
+
+# target to generate assembly for a file
+dynamics/dynamics_mvrpmd.cpp.s:
+	$(MAKE) -f CMakeFiles/nrpmd.dir/build.make CMakeFiles/nrpmd.dir/dynamics/dynamics_mvrpmd.cpp.s
+.PHONY : dynamics/dynamics_mvrpmd.cpp.s
 
 equilibrium/MonteCarloHelper.o: equilibrium/MonteCarloHelper.cpp.o
 
@@ -1077,93 +1671,159 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... nrpmd"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_Estimator.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/MVRPMD_MTS_Estimator.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_MTS_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dM_Matrix_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_MTS_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/dTheta_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_Esplit_esti.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/mvrpmd_mixed_esti.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_Esplit_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/estimators/theta_mixed_dBeta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/C_Matrix.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/GTerm.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_Hamiltonian.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/M_Matrix_MTS.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/SpringEnergy.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateDepPots.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/StateIndepPot.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/Theta_MTS.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_Esplit_ham.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/mvrpmd_mixed_ham.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_Esplit.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/hamiltonian/theta_mixed.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/MainHlpr.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/misc/mpi_wrapper.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/elec_step.s"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.o"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.i"
-	@echo "... Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC/src/monte_carlo/system_step.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_Estimator.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/MVRPMD_MTS_Estimator.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_MTS_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dM_Matrix_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_MTS_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/dTheta_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_Esplit_esti.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/mvrpmd_mixed_esti.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_Esplit_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/estimators/theta_mixed_dBeta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/csrpmd_forces.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dCdelec.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dM_Matrix_dQ.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dSpring_dQ.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateDep_dQ.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/dStateIndep_dQ.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/mvrpmd_mixed_forces.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/nrpmd_forces.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dElec.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/forces/theta_mixed_dQ.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/C_Matrix.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/GTerm.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_Hamiltonian.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/MVRPMD_MTS_Hamiltonian.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/M_Matrix_MTS.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/SpringEnergy.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateDepPots.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/StateIndepPot.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/Theta_MTS.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_Esplit_ham.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/mvrpmd_mixed_ham.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/sc_potential.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_Esplit.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/hamiltonian/theta_mixed.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/ABM_MVRPMD.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/integrators/RK4_MVRPMD.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/MainHlpr.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/PopulationEstimator.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/aggregate.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/auto_correlation_nrpmd.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/decorrelation.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/energy_conserv.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/init_PAC.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/lyapunov.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/mpi_wrapper.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/misc/pop_estimators.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/elec_step.s"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.o"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.i"
+	@echo "... Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0/src/monte_carlo/system_step.s"
+	@echo "... dynamics/dynamics_mvrpmd.o"
+	@echo "... dynamics/dynamics_mvrpmd.i"
+	@echo "... dynamics/dynamics_mvrpmd.s"
 	@echo "... equilibrium/MonteCarloHelper.o"
 	@echo "... equilibrium/MonteCarloHelper.i"
 	@echo "... equilibrium/MonteCarloHelper.s"

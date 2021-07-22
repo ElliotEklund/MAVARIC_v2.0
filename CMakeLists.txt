@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 set(MACHINE "MAC")
 
-set(ROOT_MAC "/Users/ellioteklund/Desktop/MAVARIC_v2.0/MAVARIC")
+set(ROOT_MAC "/Users/ellioteklund/Desktop/nando_review/MAVARIC_v2.0")
 #set(ROOT_LIN "/home/elliot/Desktop")
 #set(ROOT_ASTRA "/home/fs01/ece52/MAVARIC-MTS/Dynamics_MTS")
 #set(ROOT_ASTRA "/Users/ellioteklund/Desktop/Dynamics_MTS_git/Dynamics_MTS")
